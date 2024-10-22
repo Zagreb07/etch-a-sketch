@@ -3,7 +3,8 @@
     flex-wrap:wrap;
     border-style:solid;
     max-width:540px;
-}
+    margin: 10px;
+} 
 #container div {
     border-style:solid;
     margin: 0;
@@ -12,4 +13,14 @@
     height: 30px;
     flex:1 0 auto;
     text-align: center;
+}
+.containerBtn{
+    border-style:none;
+    margin: 10px;
+
+}
+body{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
 }
